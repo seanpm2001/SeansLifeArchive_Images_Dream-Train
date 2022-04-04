@@ -5,19 +5,39 @@
 # .gitattributes
 # and nothing else, no characters before, no characters after
 # Start of linguist script
-# HTML (duplicate, as it is already detected)
-*.htm linguist-detectable=true
+# HTML
+*.htm linguist-detectable=false
 *.htm linguist-documentation=false
-*.html linguist-detectable=true
+*.html linguist-detectable=false
 *.html linguist-documentation=false
-# JavaScript (duplicate, as it is already detected)
-*.js linguist-detectable=true
-*.js linguist-documentation=false
+*.mhtm linguist-detectable=false
+*.mhtm linguist-documentation=false
+*.mhtml linguist-detectable=false
+*.mhtml linguist-documentation=false
+*.xhtm linguist-detectable=false
+*.xhtm linguist-documentation=false
+*.xhtml linguist-detectable=false
+*.xhtml linguist-documentation=false
+# Roff
+*.0 linguist-detectable=false
+*.0 linguist-documentation=false
+*.1 linguist-detectable=false
+*.1 linguist-documentation=false
+*.2 linguist-detectable=false
+*.2 linguist-documentation=false
+*.3 linguist-detectable=false
+*.3 linguist-documentation=false
 # Makefile (GNU Make)
 *.mk linguist-detectable=false
 *.mk linguist-documentation=false
-# Shell (duplicate, as it is already detected)
-*.sh linguist-detectable=true
+*.mak linguist-detectable=false
+*.mak linguist-documentation=false
+*.make linguist-detectable=false
+*.make linguist-documentation=false
+*.makefile linguist-detectable=false
+*.makefile linguist-documentation=false
+# Shell
+*.sh linguist-detectable=false
 *.sh linguist-documentation=false
 # YAML
 *.yml linguist-detectable=false
@@ -25,43 +45,51 @@
 *.yaml linguist-detectable=false
 *.yaml linguist-documentation=false
 # ReStructuredText
-*.rst linguist-detectable=true
+*.rst linguist-detectable=false
 *.rst linguist-documentation=false
 # WebVTT
-*.vtt linguist-detectable=true
+*.vtt linguist-detectable=false
 *.vtt linguist-documentation=false
 # SVG
-# Experimental
 *.svg linguist-detectable=false
 *.svg linguist-documentation=false
 # JSON
-# Experimental
-*.json linguist-detectable=true
+*.json linguist-detectable=false
 *.json linguist-documentation=false
 # Subtitles (SubRip Text)
-*.srt linguist-detectable=true
+*.srt linguist-detectable=false
 *.srt linguist-documentation=false
 # INI
-# Experimental, I may have to turn this off
-*.ini linguist-detectable=true
+*.ini linguist-detectable=false
 *.ini linguist-documentation=false
 # WikiText (MediaWiki)
-# Do not include, as it would become a dominant language that shouldn't be the language people refer this project to
 *.wiki linguist-detectable=false
 *.wiki linguist-documentation=false
 # XML
-# Do not include, as it would become a dominant language that shouldn't be the language people refer this project to
 *.xml linguist-detectable=false
 *.xml linguist-documentation=false
 *.xspf linguist-detectable=false
 *.xspf linguist-documentation=false
 # Markdown
-# Do not include, as it would become the 100% dominant language and would hide all the other languages as "other"
 *.md linguist-detectable=false
 *.md linguist-documentation=false
+*.mkd linguist-detectable=false
+*.mkd linguist-documentation=false
+*.mdown linguist-detectable=false
+*.mdown linguist-documentation=false
+*.markdown linguist-detectable=false
+*.markdown linguist-documentation=false
+# Ruby
+*.rb linguist-detectable=false
+*.rb linguist-documentation=false
+# LaTeX/BibTeX
+*.tex linguist-detectable=false
+*.tex linguist-documentation=false
+*.bib linguist-detectable=false
+*.bib linguist-documentation=false
 # End of linguist script
 # File info
 # File type: .gitattributes file (*.gitattributes)
-# File version: 2 (Sunday, 2021 August 22nd at 9:38 pm)
-# Line count (including blank lines and compiler line): 68
+# File version: 3 (Monday, 2022 April 4th at 4:07 pm)
+# Line count (including blank lines and compiler line): 96
 # End of script
