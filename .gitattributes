@@ -80,8 +80,14 @@
 *.markdown linguist-detectable=false
 *.markdown linguist-documentation=false
 # Ruby
-*.rb linguist-detectable=false
+*.rb linguist-detectable=true
 *.rb linguist-documentation=false
+*.rake linguist-detectable=true
+*.rake linguist-documentation=false
+*GemSpec linguist-detectable=true
+*GemSpec linguist-documentation=false
+*rakefile linguist-detectable=true
+*rakefile linguist-documentation=false
 # LaTeX/BibTeX
 *.tex linguist-detectable=false
 *.tex linguist-documentation=false
@@ -90,6 +96,6 @@
 # End of linguist script
 # File info
 # File type: .gitattributes file (*.gitattributes)
-# File version: 3 (Monday, 2022 April 4th at 4:07 pm)
-# Line count (including blank lines and compiler line): 96
+# File version: 4 (Monday, 2022 April 4th at 4:49 pm)
+# Line count (including blank lines and compiler line): 102
 # End of script
